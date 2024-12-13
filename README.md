@@ -13,6 +13,7 @@ C++ Standardı: C++17 veya üstü.
 ***Tasarım Kararları***
 
 -------1. Sınıf Tabanlı Tasarım-------
+
  --a. Sensor Sınıfı--
  Amaç:
  Rastgele sensör verileri üretir ve bu verileri bir vektörde saklar.
@@ -41,6 +42,7 @@ C++ Standardı: C++17 veya üstü.
 ***İsteğe Bağlı Bölümlerin Açıklaması***
 
 ----Dosya Çıktısı----
+
 Program, analiz edilen verileri bir metin dosyasına kaydetmek için şu adımları izler:
 1-)Dosya adının benzersiz olması için bir timestamp (zaman damgası) kullanılır. 
 Bu, dosya adının her çalıştırmada farklı olmasını sağlar.
@@ -50,6 +52,7 @@ Dosyanın doğru bir şekilde açılıp açılmadığı kontrol edilir
 hem de işlenmiş veri (processed data) dosyaya yazılır. 
 
 ----Kullanıcı Veri Girişi----
+
 Kullanıcıdan veri girişi, programın sensör verilerini oluşturma, işleme ve analiz etme sürecini özelleştirmek için alınır. Program, 
 kullanıcıya şu esnekliği sağlar:
 
@@ -62,6 +65,7 @@ Hareketli Ortalama Pencere Boyutu: Eğer hareketli ortalama filtresi seçilirse,
 Bu girişler sayesinde program, farklı kullanıcı ihtiyaçlarına göre özelleştirilir ve esneklik kazanır.
 
 ----Kullanıcı Girdilerinin Hata Kontrolü----
+
 Kullanıcıdan alınan girdiler üzerinde çeşitli doğrulamalar yapılır. Bu, yanlış veya eksik girdilerin tespit
  edilmesini ve kullanıcıya tekrar giriş yapması için fırsat tanınmasını sağlar.
 Her hata durumunda kullanıcıya açıklayıcı mesajlar verilir. Mesajlar, hatanın nedenini ve nasıl düzeltileceğini açıklar.
