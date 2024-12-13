@@ -1,0 +1,11 @@
+
+- - Results - -
+Raw Data : 53 20 70 52 16 55 18 31 4 57 45 34 23 58 64 
+Raw Data - Minimum Value : 4
+Raw Data - Maximum Value : 70
+Raw Data - Average :  40
+
+Processed Data: 47.3333 47.3333 47.3333 47.3333 47.3333 47.3333 47.3333 47.3333 47.3333 47.3333 47.3333 47.3333 47.3333 
+Processed Data - Minimum Value : 47.3333
+Processed - Maximum Value : 47.3333
+Processed - Average :  47.3333
